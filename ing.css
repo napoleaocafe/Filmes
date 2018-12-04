@@ -1,0 +1,184 @@
+@charset "UTF-8";
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    color: white;
+    text-shadow: 0px 0px 5px gray;
+    
+}
+
+
+p{
+    color: white;
+    text-shadow: 0px 0px 5px gray;
+    text-align: justify;
+}
+
+img.dm{ 
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px white;
+}
+.parallax{
+    background-image: url(imag/fundo2.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+div#interface{
+    position: relative;
+    width: 900px;
+    margin: -40px auto -150px auto;
+    padding: 25px;
+    box-shadow: 0px 0px 2px #ffffff;
+    background-color:black;
+    border-radius: 15px;
+
+}
+
+.qua{
+    width: 750px;
+    box-shadow: 0px 0px 7px #ffffff;
+    border-radius: 12px;
+
+}
+
+#centro{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    top: 20px;
+	left: 800px;
+    position: absolute;
+   
+}
+
+img.qua{
+    width:40%;
+    height:40%;
+}
+
+nav#menu img{
+    width:60%;
+    height:60%;
+content: center;
+    }
+nav#menu img:hover{
+    width:70%;
+    height:70%;
+}
+
+
+
+nav#menu ul{
+	list-style:none;
+   
+
+}
+
+/* outro nav */
+nav#hora ul{
+	list-style:none;
+	text-transform: uppercase;
+	top: 27px;
+	left: 300px;
+	position: absolute;
+	
+}
+nav#hora li{
+display: inline-block;
+background-color: #ffffff;
+margin: 2px;
+padding: 5px;
+-webkit-transition: background-color;
+-moz-transition: background-color;
+-ms-transition: background-color;
+-o-transition: background-color;
+transition: background-color;
+box-shadow: 0px 0px 8px gray;
+	}
+
+nav#hora li:hover{
+background-color: #bbbbbb;
+box-shadow: 0px 0px 8px black;
+
+
+}
+
+/* outro nav */
+nav#horas ul{
+	list-style:none;
+	text-transform: uppercase;
+	top: 360px;
+	left: 300px;
+	position: absolute;
+	
+}
+nav#horas li{
+display: inline-block;
+background-color: #ffffff;
+margin: 2px;
+padding: 5px;
+-webkit-transition: background-color;
+-moz-transition: background-color;
+-ms-transition: background-color;
+-o-transition: background-color;
+transition: background-color;
+box-shadow: 0px 0px 8px gray;
+	}
+
+nav#horas li:hover{
+background-color: #bbbbbb;
+box-shadow: 0px 0px 8px black;
+
+
+}
+
+/* outro nav */
+nav#sema ul{
+	list-style:none;
+	text-transform: uppercase;
+	top: 15px;
+	left: 70px;
+	position: absolute;
+	
+}
+nav#sema li{
+display: inline-block;
+background-color: #ffffff;
+margin: 6px;
+padding: 5px;
+-webkit-transition: background-color;
+-moz-transition: background-color;
+-ms-transition: background-color;
+-o-transition: background-color;
+transition: background-color;
+box-shadow: 0px 0px 8px gray;
+	}
+
+nav#sema li:hover{
+background-color: #bbbbbb;
+box-shadow: 0px 0px 8px black;
+
+
+}
+
+div#el{
+    visibility: hidden;
+    
+}
+
+
+
+
+
+
+

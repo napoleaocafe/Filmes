@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.parallax{
+    background-image: url(imag/fundo2.jpg);
+    min-height: 130px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+input{
+  height: 50px;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px;
+  text-align: center;
+  font-size: 25pt;
+  font-family: arial;
+}
+
+h2{
+    font-size: 40pt;
+    font-weight: bolder;
+    text-shadow: -4px 4px 6px gray;
+    font-family: arial;
+   
+
+}
+
+.botao{
+    height: 55px;
+    width: 410px;
+    box-shadow: 0px 0px 6px;
+    font-size: 25pt;
+    background: black;
+    color:white;
+    font-family: arial;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+nav#menu ul{
+	list-style:none;
+	text-transform: uppercase;
+	top: -22px;
+	left: 700px;
+	position: absolute;
+	
+}
+nav#menu li{
+display: inline-block;
+background-color: #000000;
+margin: 6px;
+padding: 15px;
+
+-webkit-transition: background-color;
+-moz-transition: background-color;
+-ms-transition: background-color;
+-o-transition: background-color;
+transition: background-color;
+box-shadow: 0px 0px 10px gray;
+	}
+
+nav#menu li:hover{
+background-color: #ffffff;
+box-shadow: 0px 0px 10px black;
+}
+
+nav#menu a{
+	color: #ffffff;
+	text-shadow: 0px 0px 18px grey;
+	text-decoration: none;
+}
+ 
+nav#menu a:hover{
+	color: #000000;
+	font-weight: border;
+}
+
+nav#menu li.active{
+	background-color: grey;
+	color:black;
+
+}
+
+
+

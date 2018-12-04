@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <title>
+        filme
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="java.js"></script>
+</head>
+
+
+<nav id="menu">
+    <ul>
+        <a href="filme.html">
+            <li class="active">Home</li>
+        </a>
+        <a href="login.html">
+                <li> Login</li>
+            </a>
+        <a href="cadastro.html">
+            <li>Cadastre-se</li>
+        </a>
+        <a href="ingressos.html">
+                <li> Ingressos </li>
+            </a>
+           
+    </ul>
+</nav>
+
+<body>
+
+    <div class="parallax"></div>
+
+    <div id="rotacao">
+
+        <figure class="cima">
+            <img src="imag/i.jpg" id="0" onmouseout="c1(0,'imag/i.jpg' );" onmouseover="c2(0);" />
+            <figcaption>
+                <h3> Os Íncriveis 2</h3>
+            </figcaption>
+
+            <input type="button" value="Trailer" onclick="trailer();"></input>
+            <input type="button" value="Sinopse " onclick="sinp();"> </input>
+            <input type="button" value="Adicionar" onclick="login();"> </input>
+            <input type="button" value="Ingressos" onclick="ingres();"> </input>
+        </figure>
+
+
+        <figure class="cima">
+            <img src="imag/jw.jpg" id="1" onmouseout="c3(1,'imag/jw.jpg' );" onmouseover="c4(1);" />
+            <figcaption>
+                <h3> Jurassic World 2 </h3>
+            </figcaption>
+
+            <input type="button" value="Trailer" onclick="trailer1();"></input>
+            <input type="button" value="Sinopse " onclick="sinp1();"> </input>
+            <input type="button" value="Adicionar" onclick="login();"> </input>
+            <input type="button" value="Ingressos" onclick="ingres();"> </input>
+        </figure>
+
+
+
+        <figure class="cima">
+            <img src="imag/f.jpg" id="2" onmouseout="c5(2,'imag/f.jpg' );" onmouseover="c6(2);" />
+            <figcaption>
+                <h3> Homem-Formiga
+                    <br/>
+                    <center>e Vespa</h3>
+                </center>
+            </figcaption>
+            <input type="button" value="Trailer" onclick="trailer2();"></input>
+            <input type="button" value="Sinopse " onclick="sinp2();"> </input>
+            <input type="button" value="Adicionar" onclick="login();"> </input>
+            <input type="button" value="Ingressos" onclick="ingres();"> </input>
+        </figure>
+
+        <figure class="cima">
+            <img src="imag/ht.jpg" id="3" onmouseout="c7(3,'imag/ht.jpg' );" onmouseover="c8(3);" />
+            <figcaption>
+                <h3> Hotel Transilvânia 3</h3>
+            </figcaption>
+            <input type="button" value="Trailer" onclick="trailer3();"></input>
+            <input type="button" value="Sinopse " onclick="sinp3();"> </input>
+            <input type="button" value="Adicionar" onclick="login();"> </input>
+            <input type="button" value="Ingressos" onclick="ingres();"> </input>
+        </figure>
+
+        <figure class="cima">
+            <img src="imag/mi.jpg" id="4" onmouseout="c9(4,'imag/mi.jpg' );" onmouseover="c10(4);" />
+            <figcaption>
+                <h3> Missão Impossivel</h3>
+            </figcaption>
+            <input type="button" value="Trailer" onclick="trailer4();"></input>
+            <input type="button" value="Sinopse " onclick="sinp4();"> </input>
+            <input type="button" value="Adicionar" onclick="login();"> </input>
+            <input type="button" value="Ingressos" onclick="ingres();"> </input>
+        </figure>
+
+    </div>
+
+    <div id="rota">
+        <figure class="baixo">
+            <img src="imag/vem.png" id="5" onmouseout="c11(5,'imag/vem.png' );" onmouseover="c12(5);" />
+            <figcaption>
+                <h3> Venom</h3>
+            </figcaption>
+            <input type="button" value="Trailer" onclick="trailer5();"></input>
+            <input type="button" value="Sinopse " onclick="sinp5();"> </input>
+            <input type="button" value="Adicionar" onclick="login();"> </input>
+            <input type="button" value="Ingressos" onclick="ingres();"> </input>
+        </figure>
+
+        <figure class="baixo">
+            <img src="imag/av.jpg" id="6" onmouseout="c13(6,'imag/av.jpg' );" onmouseover="c14(6);" />
+            <figcaption>
+                <h3>Ana e Vitória</h3>
+            </figcaption>
+            <input type="button" value="Trailer" onclick="trailer6();"></input>
+            <input type="button" value="Sinopse " onclick="sinp6();"> </input>
+            <input type="button" value="Adicionar" onclick="login();"> </input>
+            <input type="button" value="Ingressos" onclick="ingres();"> </input>
+        </figure>
+
+        <figure class="baixo">
+            <img src="imag/dp.jpg" id="7" onmouseout="c15(7,'imag/dp.jpg' );" onmouseover="c16(7);" />
+            <figcaption>
+                <h3>Uma Quase Dupla</h3>
+            </figcaption>
+            <input type="button" value="Trailer" onclick="trailer7();"></input>
+            <input type="button" value="Sinopse " onclick="sinp7();"> </input>
+            <input type="button" value="Adicionar" onclick="login();"> </input>
+            <input type="button" value="Ingressos" onclick="ingres();"> </input>
+        </figure>
+
+        <figure class="baixo">
+            <img src="imag/ac.jpg" id="8" onmouseout="c17(8,'imag/ac.jpg' );" onmouseover="c18(8);" />
+            <figcaption>
+                <h3>Arranha-Céu</h3>
+            </figcaption>
+            <input type="button" value="Trailer" onclick="trailer8();"></input>
+            <input type="button" value="Sinopse " onclick="sinp8();"> </input>
+            <input type="button" value="Adicionar" onclick="login();"> </input>
+            <input type="button" value="Ingressos" onclick="ingres();"> </input>
+        </figure>
+
+        <figure class="baixo">
+            <img src="imag/td.jpg" id="9" onmouseout="c19(9,'imag/td.jpg' );" onmouseover="c20(9);" />
+            <figcaption>
+                <h3>Todo Dia</h3>
+            </figcaption>
+            <input type="button" value="Trailer" onclick="trailer9();"></input>
+            <input type="button" value="Sinopse " onclick="sinp9();"></input>
+            <input type="button" value="Adicionar" onclick="login();"></input>
+            <input type="button" value="Ingressos" onclick="ingres();"> </input>
+        </figure>
+
+    </div>
+    <div class="parallax"></div>
+
+
+
+</body>
+
+</html>

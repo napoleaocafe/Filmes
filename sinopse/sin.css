@@ -1,0 +1,130 @@
+@charset "UTF-8";
+.parallax{
+background-image: url(img/sinop.jpg);
+min-height: 450px;
+background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.px1{
+	background-image: url(img/sinop3.jpg);
+	min-height: 450px;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+	.px2{
+		background-image: url(img/sinop4.jpg);
+		min-height: 450px;
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		}
+
+		.px3{
+			background-image: url(img/htr.jpg);
+			min-height: 450px;
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			}
+
+			.px4{
+				background-image: url(img/mssi.jpg);
+				min-height: 450px;
+				background-attachment: fixed;
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				}
+
+				.px5{
+					background-image: url(img/vnm.jpg);
+					min-height: 450px;
+					background-attachment: fixed;
+					background-position: center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+					}	
+					
+					.px6{
+						background-image: url(img/anvtr.jpg);
+						min-height: 450px;
+						background-attachment: fixed;
+						background-position: center center;
+						background-repeat: no-repeat;
+						background-size: cover;
+						}
+
+						.px7{
+							background-image: url(img/qdp.jpg);
+							min-height: 450px;
+							background-attachment: fixed;
+							background-position: center center;
+							background-repeat: no-repeat;
+							background-size: cover;
+							}
+
+							.px8{
+								background-image: url(img/arr.jpg);
+								min-height: 450px;
+								background-attachment: fixed;
+								background-position: center center;
+								background-repeat: no-repeat;
+								background-size: cover;
+								}
+
+								.px9{
+									background-image: url(img/tdia.jpg);
+									min-height: 450px;
+									background-attachment: fixed;
+									background-position: center center;
+									background-repeat: no-repeat;
+									background-size: cover;
+									}
+
+#rotac{
+	height:800px; 
+	background-color:rgba(00, 00, 00,1);
+	width: 100%;
+	min-height: 100%;
+}
+
+	img{
+		height: 20%;
+		width: 20%;
+	}
+	
+	h1{
+		color: white;
+		font-size: 50pt;
+		font-family: arial;
+		font-weight: border;
+		text-shadow: 0px 0px 6px gray;
+		position: absolute;
+top: 500px;
+left: 300px	
+	}
+h2{
+		color: white;
+		font-size: 30pt;
+		font-family: arial;
+		font-weight: border;
+		text-shadow: 0px 0px 6px gray;
+	}
+	p{
+		text-align: justify;
+		text-indent: 50px;
+		color: white;
+		font-size: 25pt;
+		font-family: arial;
+		font-weight: border;
+		text-shadow: 0px 0px 6px gray;
+	}
+

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+body{
+    background-color: black;
+}
+
+.parallax{
+    background-image: url(imag/fundo2.jpg);
+    min-height: 170px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+input{
+    height: 40px;
+    width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15pt;
+    font-family: arial;
+  }
+  
+  h3{
+      font-size: 15pt;
+      font-weight: bolder;
+      text-shadow: -4px 4px 6px gray;
+      font-family: arial;
+     
+  
+  }
+
+  .bolinha{
+    height: 10px;
+    width: 10px;
+    
+  }
+
+  #interface{
+      width: 500px;
+      margin: 10px auto 10px auto;
+      padding: 5px;
+      box-shadow: 0px 0px 7px black;
+      border-radius: 15px;
+      background-color: white;
+
+  }
+
+
+  nav#menu ul{
+	list-style:none;
+	text-transform: uppercase;
+	top: -22px;
+	left: 700px;
+	position: absolute;
+	
+}
+nav#menu li{
+display: inline-block;
+background-color: #000000;
+margin: 6px;
+padding: 15px;
+box-shadow: 0px 0px 5px black;
+-webkit-transition: background-color;
+-moz-transition: background-color;
+-ms-transition: background-color;
+-o-transition: background-color;
+transition: background-color;
+box-shadow: 0px 0px 8px gray;
+	}
+
+nav#menu li:hover{
+background-color: #ffffff;
+box-shadow: 0px 0px 8px black;
+
+}
+
+nav#menu a{
+	color: #ffffff;
+	text-shadow: 0px 0px 18px grey;
+	text-decoration: none;
+}
+ 
+nav#menu a:hover{
+	color: #000000;
+	font-weight: border;
+}
+
+nav#menu li.active{
+	background-color: grey;
+	color:black;
+
+}
+
+
+
